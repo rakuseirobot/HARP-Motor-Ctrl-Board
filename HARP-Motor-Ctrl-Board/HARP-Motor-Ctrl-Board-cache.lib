@@ -1,0 +1,223 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x02_Male
+#
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x04_Male
+#
+DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x04_Male" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+X Pin_4 4 200 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x05_Male
+#
+DEF Connector_Conn_01x05_Male J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x05_Male" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+X Pin_1 1 200 200 150 L 50 50 1 1 P
+X Pin_2 2 200 100 150 L 50 50 1 1 P
+X Pin_3 3 200 0 150 L 50 50 1 1 P
+X Pin_4 4 200 -100 150 L 50 50 1 1 P
+X Pin_5 5 200 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LibraryLoader_STM32L010F4P6
+#
+DEF LibraryLoader_STM32L010F4P6 IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "LibraryLoader_STM32L010F4P6" 1450 200 50 H V L CNN
+F2 "SOP65P640X120-20N" 1450 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/stm32l010f4.pdf" 1450 0 50 H I L CNN
+F4 "STMICROELECTRONICS - STM32L010F4P6 - MCU, 32BIT, 32MHZ, TSSOP-20" 1450 -100 50 H I L CNN "Description"
+F5 "1.2" 1450 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "STM32L010F4P6" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "STM32L010F4P6" 1450 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/stm32l010f4p6/stmicroelectronics" 1450 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "511-STM32L010F4P6" 1450 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L010F4P6?qs=PqoDHHvF64%252BtQ%252BKLA1pMLA%3D%3D" 1450 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1400 100 1400 -1000 200 -1000 200 100 N
+X PB9-BOOT0 1 0 0 200 R 50 50 0 0 P
+X PA4 10 0 -900 200 R 50 50 0 0 P
+X PA5 11 1600 -900 200 L 50 50 0 0 P
+X PA6 12 1600 -800 200 L 50 50 0 0 P
+X PA7 13 1600 -700 200 L 50 50 0 0 P
+X PB1 14 1600 -600 200 L 50 50 0 0 P
+X VSS 15 1600 -500 200 L 50 50 0 0 P
+X VDD 16 1600 -400 200 L 50 50 0 0 P
+X PA9 17 1600 -300 200 L 50 50 0 0 P
+X PA10 18 1600 -200 200 L 50 50 0 0 P
+X PA13 19 1600 -100 200 L 50 50 0 0 P
+X PC14-OSC32_IN 2 0 -100 200 R 50 50 0 0 P
+X PA14 20 1600 0 200 L 50 50 0 0 P
+X PC15-OSC32_OUT 3 0 -200 200 R 50 50 0 0 P
+X NRST 4 0 -300 200 R 50 50 0 0 P
+X VDDA 5 0 -400 200 R 50 50 0 0 P
+X PA0-CK_IN 6 0 -500 200 R 50 50 0 0 P
+X PA1 7 0 -600 200 R 50 50 0 0 P
+X PA2 8 0 -700 200 R 50 50 0 0 P
+X PA3 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# LibraryLoader_TC7S14F,LF
+#
+DEF LibraryLoader_TC7S14F,LF IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LibraryLoader_TC7S14F,LF" 1050 200 50 H V L CNN
+F2 "SOT95P275X140-5N" 1050 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/tc7s14flf/toshiba" 1050 0 50 H I L CNN
+F4 "Inverters SMV L-MOS LOGIC (HS)" 1050 -100 50 H I L CNN "Description"
+F5 "1.4" 1050 -200 50 H I L CNN "Height"
+F6 "Toshiba" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TC7S14F,LF" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "TC7S14F,LF" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/tc7s14flf/toshiba" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "757-TC7S14FLF" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Toshiba/TC7S14FLF?qs=zmZlODDdFbCGhbsUJu6n6g%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X NC 1 0 0 200 R 50 50 0 0 N
+X IN_A 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X OUT_Y 4 1200 0 200 L 50 50 0 0 P
+X VCC 5 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
