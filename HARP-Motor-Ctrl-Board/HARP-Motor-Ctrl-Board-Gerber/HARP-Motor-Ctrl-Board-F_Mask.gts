@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*%
-%TF.CreationDate,2020-11-23T19:09:11+09:00*%
+%TF.CreationDate,2020-11-23T19:54:07+09:00*%
 %TF.ProjectId,HARP-Motor-Ctrl-Board,48415250-2d4d-46f7-946f-722d4374726c,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-11-23 19:09:11*
+G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-11-23 19:54:07*
 %MOMM*%
 %LPD*%
 G01*
@@ -20,9 +20,6 @@ G04 APERTURE LIST*
 %ADD16O,1.800000X1.800000*%
 G04 APERTURE END LIST*
 D10*
-%TO.C,REF\u002A\u002A*%
-X88000000Y-97000000D03*
-%TD*%
 %TO.C,REF\u002A\u002A*%
 X95000000Y-109000000D03*
 %TD*%
